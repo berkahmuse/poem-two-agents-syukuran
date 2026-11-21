@@ -1,6 +1,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// Two keys, one door: a choice grows larger in two hands.
+
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output.
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
